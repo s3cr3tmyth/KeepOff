@@ -4,7 +4,7 @@ class KeepOff(rumps.App):
     def __init__(self):
         super(KeepOff, self).__init__("KO")
         self.menu = ["Start Blocker","Stop Blocker"]
-        self.b_sites = ['reddit.com','www.reddit.com']
+        self.b_sites = [line.strip() for line in open("sites.txt", 'r+')]
         self.hosts_path = '/etc/hosts'
         self.lh = '127.0.0.1'
         rumps.debug_mode(True)
