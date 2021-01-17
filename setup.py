@@ -4,7 +4,7 @@ APP = ['keepOffMacApp.py']
 DATA_FILES = []
 OPTIONS = {
     'argv_emulation': True,
-    'iconfile': 'icon',
+    'iconfile': 'icon.icns',
     'plist': {
         'CFBundleShortVersionString': '0.1.0',
         'LSUIElement': True,
