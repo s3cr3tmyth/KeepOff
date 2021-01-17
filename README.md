@@ -7,6 +7,7 @@ Requirements:
 3) MacOS
 
 Steps:
-1) Run KeepOffMacApp.py with root permissions.
-2) Build using python3 setup.py py2app
-3) Run app from dist/ folder created at the parent direcotry.
+1) Add sites you want to block in separate lines inside sites.txt
+2) Run KeepOffMacApp.py with root permissions.
+3) Build using python3 setup.py py2app
+4) Run app from dist/ folder created at the parent directory.
